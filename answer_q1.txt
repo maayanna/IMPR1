@@ -1,0 +1,5 @@
+Answer to Q1 :
+
+The quantization procedure needs an initial segment division of [0..255] to segments z, because
+if a divison will have a grey level segments with no pixels the procedure will crash because of the
+given formula. In fact we will have to divide by zero ( NO POSSIBLE)
